@@ -18,9 +18,9 @@
 
 
 [Rule]
-IP-CIDR,1.1.1.1/32,☁️CF,no-resolve
-IP-CIDR6,2606:4700:4700::1111/128,☁️CF,no-resolve
-DOMAIN-SUFFIX,zero-trust-client.cloudflareclient.com,☁️CF
+IP-CIDR,1.1.1.1/32,☁️Warp+,no-resolve
+IP-CIDR6,2606:4700:4700::1111/128,☁️Warp+,no-resolve
+DOMAIN-SUFFIX,zero-trust-client.cloudflareclient.com,☁️Warp+
 
 [MITM]
 hostname = %APPEND% api.cloudflareclient.com, zero-trust-client.cloudflareclient.com
