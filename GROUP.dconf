@@ -9,12 +9,12 @@ GITHUB = select, no-alert=0, hidden=0, include-all-proxies=0, include-other-grou
 TELEGRAM = select, DIRECT, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=PROXY
 APPLE = select, no-alert=0, hidden=0, include-all-proxies=0, include-other-group=PROXY
 ADVERTISING = select, REJECT-TINYGIF, REJECT-DROP, REJECT-NO-DROP, REJECT, DIRECT, update-interval=604800, no-alert=0, hidden=0, include-all-proxies=0
-🇭🇰 HongKong = select, DIRECT, 🚦 Auto🇭🇰, policy-path=https://gist.githubusercontent.com/DinorCyrus/a5f0eb6ca9c3850b0f3780b822b284c7/raw/SurgeDating5, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, policy-regex-filter=(HK|香港|港|🇭🇰|Hong Kong)
-🇻🇳 VietNam = select, DIRECT, 🚦 Auto🇻🇳, policy-path=https://gist.githubusercontent.com/DinorCyrus/a5f0eb6ca9c3850b0f3780b822b284c7/raw/SurgeDating5, update-interval=0, policy-regex-filter=(台|台湾|🇻🇳|Vietnam), no-alert=0, hidden=0, include-all-proxies=0
-🇯🇵 Japan = select, DIRECT, 🚦 Auto🇯🇵, policy-path=https://gist.githubusercontent.com/DinorCyrus/a5f0eb6ca9c3850b0f3780b822b284c7/raw/SurgeDating5, update-interval=0, policy-regex-filter=(日|日本|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|JP), no-alert=0, hidden=0, include-all-proxies=0
-🇸🇬 Singapore = select, DIRECT, 🚦 Auto🇸🇬, policy-path=https://gist.githubusercontent.com/DinorCyrus/a5f0eb6ca9c3850b0f3780b822b284c7/raw/SurgeDating5, update-interval=0, policy-regex-filter=(狮城|新加坡|🇸🇬|SG), no-alert=0, hidden=0, include-all-proxies=0
-🚦 Auto🇻🇳 = url-test, policy-path=https://gist.githubusercontent.com/DinorCyrus/a5f0eb6ca9c3850b0f3780b822b284c7/raw/SurgeDating5, update-interval=0, no-alert=1, hidden=1, include-all-proxies=0, policy-regex-filter=(台|台湾|🇻🇳|Vietnam)
-🚦 Auto🇯🇵 = url-test, no-alert=1, hidden=1, include-all-proxies=0, policy-path=https://gist.githubusercontent.com/DinorCyrus/a5f0eb6ca9c3850b0f3780b822b284c7/raw/SurgeDating5, update-interval=0, policy-regex-filter=(日|日本|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|JP)
-🚦 Auto🇸🇬 = url-test, policy-path=https://gist.githubusercontent.com/DinorCyrus/a5f0eb6ca9c3850b0f3780b822b284c7/raw/SurgeDating5, update-interval=0, policy-regex-filter=(狮城|新加坡|🇸🇬|SG), no-alert=1, hidden=1, include-all-proxies=0
-🚦 Auto🇭🇰 = url-test, policy-path=https://gist.githubusercontent.com/DinorCyrus/a5f0eb6ca9c3850b0f3780b822b284c7/raw/SurgeDating5, update-interval=0, policy-regex-filter=(HK|香港|港|🇭🇰|Hong Kong), no-alert=1, hidden=1, include-all-proxies=0
+🇭🇰 HongKong = select, DIRECT, 🚦 Auto🇭🇰, policy-path=....., update-interval=0, no-alert=0, hidden=0, include-all-proxies=0, policy-regex-filter=(HK|香港|港|🇭🇰|Hong Kong)
+🇻🇳 VietNam = select, DIRECT, 🚦 Auto🇻🇳, policy-path=...., update-interval=0, policy-regex-filter=(台|台湾|🇻🇳|Vietnam), no-alert=0, hidden=0, include-all-proxies=0
+🇯🇵 Japan = select, DIRECT, 🚦 Auto🇯🇵, policy-path=...., update-interval=0, policy-regex-filter=(日|日本|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|JP), no-alert=0, hidden=0, include-all-proxies=0
+🇸🇬 Singapore = select, DIRECT, 🚦 Auto🇸🇬, policy-path=......, update-interval=0, policy-regex-filter=(狮城|新加坡|🇸🇬|SG), no-alert=0, hidden=0, include-all-proxies=0
+🚦 Auto🇻🇳 = url-test, policy-path=....., update-interval=0, no-alert=1, hidden=1, include-all-proxies=0, policy-regex-filter=(台|台湾|🇻🇳|Vietnam)
+🚦 Auto🇯🇵 = url-test, no-alert=1, hidden=1, include-all-proxies=0, policy-path=......, update-interval=0, policy-regex-filter=(日|日本|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|JP)
+🚦 Auto🇸🇬 = url-test, policy-path=...., update-interval=0, policy-regex-filter=(狮城|新加坡|🇸🇬|SG), no-alert=1, hidden=1, include-all-proxies=0
+🚦 Auto🇭🇰 = url-test, policy-path=......, update-interval=0, policy-regex-filter=(HK|香港|港|🇭🇰|Hong Kong), no-alert=1, hidden=1, include-all-proxies=0
 
