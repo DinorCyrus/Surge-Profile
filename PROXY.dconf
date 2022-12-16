@@ -1,0 +1,15 @@
+[Proxy]
+☁️CF = wireguard, section-name=Cloudflare, underlying-proxy=CF-LOCATE, test-url=http://cf.dns.nextdns.io/generate_204
+WIREGUARD®.0 = wireguard, section-name=WireSG☁️🇸🇬, test-url=http://cf.dns.nextdns.io/generate_204
+WIREGUARD®.1 = wireguard, section-name=WireSG☁️🇸🇬1, test-url=http://cf.dns.nextdns.io/generate_204
+SideStore = wireguard, section-name=83964BA3, test-url=http://127.0.0.1:6154
+WIREGUARD®.2 = wireguard, section-name=WireSG☁️🇸🇬2, test-url=http://cf.dns.nextdns.io/generate_204
+☁️CF-US = wireguard, section-name=GetSomeCats2, underlying-proxy=🇺🇸 US-T, test-url=http://cf.dns.nextdns.io/generate_204
+🇸🇬 SG-T = trojan, sg1.hinet.dev, 443, password=828a79a6-af4b-43c9-8885-d86e1193a325, skip-cert-verify=true, sni=dl.kgvn.garenanow.com
+🇯🇵 JP-T = trojan, jp1.hinet.dev, 443, password=828a79a6-af4b-43c9-8885-d86e1193a325, skip-cert-verify=true, sni=dl.kgvn.garenanow.com
+🇺🇸 US-T = trojan, us1.hinet.dev, 443, password=828a79a6-af4b-43c9-8885-d86e1193a325, skip-cert-verify=true, sni=dl.kgvn.garenanow.com
+🇰🇷 KOREA-T = trojan, kr1.hinet.dev, 443, password=828a79a6-af4b-43c9-8885-d86e1193a325, skip-cert-verify=true, sni=dl.kgvn.garenanow.com
+🇭🇰 HK-T = trojan, hk1.hinet.dev, 443, password=828a79a6-af4b-43c9-8885-d86e1193a325, skip-cert-verify=true, sni=dl.kgvn.garenanow.com
+🇻🇳 VN-T = trojan, vn1.hinet.dev, 443, password=828a79a6-af4b-43c9-8885-d86e1193a325, skip-cert-verify=true, sni=dl.kgvn.garenanow.com
+🇻🇳 VN-T1 = trojan, vn2.hinet.dev, 443, password=828a79a6-af4b-43c9-8885-d86e1193a325, skip-cert-verify=true, sni=dl.kgvn.garenanow.com
+
